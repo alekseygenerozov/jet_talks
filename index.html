@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style type="text/css">
+        p { text-align: left; 
+        } 
+        .reveal section img { background:none; border:none; box-shadow:none; }
+        li {text-align: left;}
+        .reveal h2 {text-align: left;}
+        .reveal h1 {text-align: left;}
+        /*.reveal .slides > section > section { text-align:left; }*/
+/*        .reveal .center {text-align: left;}*/
+        .reveal .lcred {
+    	text-align: left;
+    	font-size: 55% !important;
+		}
+		.figb figcaption {position: absolute; bottom: -50px; text-align: left; font-size: 70%;}
+		.figl figcaption {position: absolute; right: 10%; top:150px ; text-align: left; font-size: 60%;}
+    </style> 
+	</head>
+	<body>
+		<div class="reveal">
+		    <!-- In between the <div="reveal"> and the <div class="slides">-->
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+<!-- 			<header style="position: absolute; left: 10px;"></header> -->
+<!-- 			<header class="right" style="position: absolute; right: 10px;"></header> -->
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<div class="slides">
+				<section>
+				<h2>Introduction to TDEs</h2>
+					<figure class=figl>
+						<img src=tidal_disruption.jpg width="700" align="left">
+						<figcaption>
+							<font color=aqua>Source: CXO</font>
+						</figcaption>
+				</section>
+
+				
+				<section>
+				<h2>Swift-J1644</h2>
+					<img src=swift.png width="800" align="left">
+				</section>
+
+				<section>
+				<h2>TDE radio observations</h2>
+					<figure class=figl>
+						<img src=tde_cons.png width="670" align="left">
+						<figcaption>
+							<font color=aqua>Slide courtesy<br> of Kate Alexander</font>
+						</figcaption>
+					</figure>
+				</section>
+
+				<section>
+				<h2>The circumnuclear medium</h2>
+					<img src="model1.png" width="1000" align="left">
+				</section>
+
+
+				<section>
+				<h2>The circumnuclear medium</h2>
+					<img src="model2.png" width="1000" align="left">
+				</section>
+
+				<section>
+				<h2>The circumnuclear medium</h2>
+					<img src="model3.png" width="1000" align="left">
+				</section>
+
+				<section>
+				<h2>Assumptions and method</h2>
+					<ul style="width: 60%">
+						<li class=fragment>
+							Spherical symmetry
+						</li>
+						<li class=fragment> 
+							Steady-state
+						</li>
+						<li class=fragment>
+							Single population
+						</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>Profiles</h2>
+					<img src="profiles.png" width="1000" align="left">
+ 				</section>
+
+ 				<section>
+				<h2>Mass return rate</h2>
+					<img src="eta_eff.png" width="1000" align="left">
+ 				</section>
+
+ 				<section>
+				<h2>Stagnation radius</h2>
+					<img src="rs.png" width="1000" align="left">
+ 				</section>
+
+ 				 <section>
+				<h2>Density</h2>
+					<img src="n18a.png" width="1000" align="left">
+ 				</section>
+
+ 				 <section>
+				<h2>Density</h2>
+					<img src="n18b.png" width="1000" align="left">
+ 				</section>
+
+ 				<section>
+				<h2>Thermal stability</h2>
+				<p>If heating = cooling, thermal instability!
+					<video width="450" muted controls><source data-src="temp_evol.webm" type="video/webm" /></video>
+					<video width="450" muted controls><source data-src="hc_evol.webm" type="video/webm" /></video>
+ 				</section>
+
+				<section>
+				<h2>Thermal stability</h2>
+				<p>Assuming marginal thermal stability gives analytic estimate for the density: <br> $5 \left(\frac{\sigma}{100 \,{\rm km\,s^{-1}}}\right)^{4.4} \left(\frac{r}{10^{18}\ \, {\rm cm}}\right)^{-1}$ cm$^{-3}$
+				</section>
+
+
+				<section>
+				<h2>Jets</h2>
+					<ul>
+						<li class=fragment> Shocks
+						<li class=fragment> Accelerate relativistic electrons
+						<li class=fragment> Synchrotron radiation.
+					</ul>
+				</section>
+
+ 				 <section>
+				<h2>Jets</h2>
+					<img src="jets.png" width="1000" align="left">
+ 				</section>
+
+				<section>
+				<h2>Simulation results</h2>
+					<ul>
+					<li>Slow component dominates near peak at high densities/low frequencies
+					($n_{18}\geq 10$ cm$^{-3}$, $\nu \leq 5$ GHz)
+					<li>Viewing angle does not matter at late times.
+					</ul>
+				</section>
+
+				<section>
+				<h2>Viewing angles effects</h2>
+					<img src="off_on.png" width="1000" align="left">
+				</section>
+
+				<section>
+				<h2>Comparison to observations</h2>
+					<img src="e_contours1.png" width="1000" align="left">
+				</section>
+
+				<section>
+				<h2>Energy constraints</h2>
+					<img src="hist.png" width="1000" align="left">
+				</section>
+
+
+				
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				math: {
+					mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full'
+				},
+				dependencies: [
+				    { src: 'plugin/math/math.js', async: true },
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					// { src: 'plugin/math/math.js', async: true }
+
+				]
+			});
+		</script>
+		<!-- <script src="pdfjs/src/pdf.js"></script> -->
+	</body>
+</html>
